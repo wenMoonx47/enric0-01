@@ -34,8 +34,9 @@ export const projects: ProjectExtra[] = [
     solution:
       'Designed and shipped an LLM-powered triage layer using GPT-4 Turbo + RAG over Kueski\'s internal knowledge base. Integrated a real-time vector similarity search so the AI retrieves the most current policy data before responding. Built a confidence-based escalation system ensuring complex cases always reach a human.',
     images: [
-      { src: '/images/project-ai-support.webp', alt: 'Kueski app home screen' },
-      { src: '/images/project-ai-copilot.webp', alt: 'Kueski personal loan flow' },
+      { src: '/images/kueski-app-home.webp', alt: 'Kueski app home screen' },
+      { src: '/images/kueski-loan.webp', alt: 'Kueski personal loan flow' },
+      { src: '/images/kueski-pay.webp', alt: 'KueskiPay B2B merchant portal' },
     ],
     metrics: [
       { value: '40%', label: 'Ticket volume reduced' },
@@ -61,7 +62,8 @@ export const projects: ProjectExtra[] = [
       'Re-architected the data layer with React Query v5 persistent cache + WebSocket subscriptions for live price feeds. Built a Zustand store syncing seven live data streams. Replaced static charts with interactive Recharts panels updated sub-second, with drill-down to individual loan cohorts.',
     images: [
       { src: '/images/project-financial-dashboard.webp', alt: 'KueskiPay merchant dashboard' },
-      { src: '/images/project-ai-support.webp', alt: 'Kueski analytics overview' },
+      { src: '/images/kueski-app-home.webp', alt: 'Kueski analytics overview' },
+      { src: '/images/kueski-loan.webp', alt: 'Kueski loan flow UI' },
     ],
     metrics: [
       { value: '35%', label: 'Page load improvement' },
@@ -87,8 +89,9 @@ export const projects: ProjectExtra[] = [
       'Led the migration to a Nx monorepo with shared library boundaries enforced at compile time. Designed a unified GraphQL gateway that replaced 11 separate REST endpoints. Built a zero-downtime migration path — new and legacy APIs coexisted via a versioned proxy layer until all consumers were migrated.',
     images: [
       { src: '/images/project-tooling-platform.jpg', alt: 'Retool builder interface' },
-      { src: '/images/retool-2.png', alt: 'Retool dashboard example' },
-      { src: '/images/retool-3.png', alt: 'Retool app editor' },
+      { src: '/images/retool-multimodal-01.svg', alt: 'Retool multimodal AI builder' },
+      { src: '/images/retool-multimodal-02.svg', alt: 'Retool workflow automation' },
+      { src: '/images/retool-multimodal-03.svg', alt: 'Retool app deployment' },
     ],
     metrics: [
       { value: '25%', label: 'API latency reduction' },
@@ -114,8 +117,9 @@ export const projects: ProjectExtra[] = [
       'Owned the frontend rewrite of the scheduling, attendance, and employee profile modules using Angular + NgRx for predictable state. Introduced React Query on the React side for data synchronisation. Built a shared component library documented in Storybook that cut new feature development time significantly across teams.',
     images: [
       { src: '/images/project-hr-platform.webp', alt: 'Factorial managers dashboard' },
-      { src: '/images/factorial-2.png', alt: 'Factorial auto scheduling' },
-      { src: '/images/factorial-3.png', alt: 'Factorial admin automation' },
+      { src: '/images/factorial-hr-core.webp', alt: 'Factorial HR core module' },
+      { src: '/images/factorial-scheduling.png', alt: 'Factorial auto scheduling' },
+      { src: '/images/factorial-automation.png', alt: 'Factorial admin automation' },
     ],
     metrics: [
       { value: '25%', label: 'User engagement lift' },
@@ -140,9 +144,10 @@ export const projects: ProjectExtra[] = [
     solution:
       'Built the invoicing, financial control, and inventory modules on the new Angular architecture from scratch. Introduced a shared SCSS design token layer — colors, spacing, and typography defined once. Wrote Jasmine/Karma unit tests and integrated REST API data flows for live transaction feeds showing real-time account balances.',
     images: [
-      { src: '/images/project-accounting.png', alt: 'Holded invoicing module' },
-      { src: '/images/holded-2.png', alt: 'Holded financial control chart' },
-      { src: '/images/holded-3.webp', alt: 'Holded team module' },
+      { src: '/images/holded-hero.webp', alt: 'Holded business management hero' },
+      { src: '/images/holded-home1.png', alt: 'Holded invoicing module' },
+      { src: '/images/holded-home2.png', alt: 'Holded financial control' },
+      { src: '/images/holded-home3.webp', alt: 'Holded team & payroll module' },
     ],
     metrics: [
       { value: '60%', label: 'UI inconsistencies fixed' },
@@ -169,6 +174,7 @@ export const projects: ProjectExtra[] = [
     images: [
       { src: '/images/project-ai-copilot.webp', alt: 'Kueski AI copilot interface' },
       { src: '/images/project-financial-dashboard.webp', alt: 'Kueski analytics dashboard' },
+      { src: '/images/kueski-pay.webp', alt: 'KueskiPay merchant analytics' },
     ],
     metrics: [
       { value: '~30%', label: 'Analyst time saved' },

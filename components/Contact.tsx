@@ -23,7 +23,7 @@ export default function Contact() {
   };
 
   const socials = [
-    { icon: <GithubIcon size={18} />, href: 'https://github.com/enricoperania', label: 'GitHub' },
+    { icon: <GithubIcon size={18} />, href: 'https://github.com/ethhandy', label: 'GitHub' },
     { icon: <LinkedinIcon size={18} />, href: 'https://www.linkedin.com/in/enrico-perania-3689ba403/', label: 'LinkedIn' },
     { icon: <XIcon size={18} />, href: 'https://twitter.com/ThepaulCreative', label: 'X / Twitter' },
   ];
