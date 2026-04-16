@@ -1,0 +1,426 @@
+export type Language = 'es' | 'en';
+
+export const translations = {
+  es: {
+    nav: {
+      about: 'Sobre mí',
+      skills: 'Habilidades',
+      experience: 'Experiencia',
+      portfolio: 'Portafolio',
+      contact: 'Contacto',
+    },
+    hero: {
+      greeting: 'Hola, soy',
+      title: 'Ingeniero de Software Lead',
+      subtitle:
+        'Especialista en frontend y fullstack con ~9 años de experiencia construyendo aplicaciones web escalables y experiencias de usuario de alto rendimiento.',
+      cta_contact: 'Contáctame',
+      cta_portfolio: 'Ver Portafolio',
+      cta_cv: 'Ver Currículum',
+      available: 'Disponible para proyectos',
+    },
+    about: {
+      title: 'Sobre Mí',
+      subtitle: 'Construyendo productos digitales con propósito',
+      description:
+        'Soy un Ingeniero de Software con ~9 años de experiencia construyendo aplicaciones web escalables y centradas en el producto para equipos remotos globales. Me especializo en desarrollo frontend y fullstack moderno con los ecosistemas de React, Next.js y Angular.',
+      description2:
+        'Comunicador multilingüe con un enfoque en arquitectura limpia, optimización del rendimiento y sistemas mantenibles. Apasionado por la experiencia del desarrollador y la excelencia técnica.',
+      location: 'Lima, Perú',
+      email: 'enricoperania@gmail.com',
+      phone: '+1 928-268-8561',
+      languages_title: 'Idiomas',
+      languages: [
+        { name: 'Español', level: 'Nativo', flag: '🇵🇪' },
+        { name: 'Inglés', level: 'Fluido', flag: '🇺🇸' },
+        { name: 'Japonés', level: 'Fluido', flag: '🇯🇵' },
+      ],
+      education_title: 'Educación',
+      education: {
+        degree: 'Licenciatura en Ciencias de la Computación',
+        school: 'Universidad Nacional de Ingeniería (Perú)',
+        year: '2016',
+      },
+    },
+    skills: {
+      title: 'Habilidades Técnicas',
+      subtitle: 'Herramientas y tecnologías que uso',
+      categories: {
+        frontend: 'Frontend',
+        backend: 'Backend',
+        cloud: 'Cloud / DevOps',
+        tools: 'Herramientas / Testing',
+      },
+    },
+    experience: {
+      title: 'Experiencia Laboral',
+      subtitle: 'Mi trayectoria profesional',
+      present: 'Presente',
+      remote: 'Remoto desde Perú',
+      jobs: [
+        {
+          company: 'Kueski',
+          location: 'México',
+          role: 'Lead Software Engineer (Frontend / AI Systems)',
+          period: 'Ago 2024 – Presente',
+          bullets: [
+            'Lideré el desarrollo de funciones de productos financieros con IA, integrando flujos LLM con APIs de OpenAI y pipelines RAG, mejorando la automatización de soporte al cliente en un 40%',
+            'Diseñé e implementé copilotos de UI inteligentes para dashboards internos, reduciendo la carga de trabajo manual de analistas en ~30%',
+            'Construí arquitectura frontend escalable con Next.js (App Router), mejorando el rendimiento de carga de páginas en un 35%',
+            'Desarrollé interfaces de datos en tiempo real con React Query y Zustand para flujos de toma de decisiones financieras más rápidos',
+            'Mentoricé ingenieros y establecí estándares frontend, mejorando la velocidad de entrega del equipo',
+          ],
+        },
+        {
+          company: 'Retool',
+          location: 'Estados Unidos',
+          role: 'Senior Backend Engineer',
+          period: 'Abr 2021 – Jul 2024',
+          bullets: [
+            'Arquitecté y optimicé servicios backend para plataformas de herramientas internas, mejorando la latencia en un 25%',
+            'Diseñé APIs REST y GraphQL escalables para sistemas de dashboards dinámicos usados por miles de usuarios',
+            'Lideré la migración a arquitectura monorepo modular (Nx), mejorando el rendimiento de compilación en un 30%',
+            'Implementé estrategias de testing robustas (Mocha, Cypress), reduciendo bugs en producción en un 20%',
+            'Mejoré pipelines CI/CD, reduciendo tiempos de despliegue y habilitando ciclos de iteración más rápidos',
+          ],
+        },
+        {
+          company: 'Factorial',
+          location: 'España',
+          role: 'Ingeniero Full Stack Mid-Level',
+          period: 'Ene 2019 – Mar 2021',
+          bullets: [
+            'Desarrollé funciones fullstack para plataforma HR usando React, Angular y Node.js, mejorando la adopción en un 25%',
+            'Construí componentes frontend escalables con Angular y NgRx, mejorando la capacidad de respuesta de la aplicación',
+            'Diseñé APIs RESTful y servicios backend para flujos de gestión de empleados',
+            'Introduje React Query y prácticas modernas de gestión de estado, mejorando la eficiencia de obtención de datos',
+          ],
+        },
+        {
+          company: 'Holded',
+          location: 'España',
+          role: 'Ingeniero Frontend Junior',
+          period: 'Jul 2016 – Dic 2018',
+          bullets: [
+            'Construí componentes UI responsivos con AngularJS y versiones tempranas de Angular para módulos contables',
+            'Implementé patrones UI reutilizables y sistemas de estilo con SCSS, reduciendo inconsistencias de UI',
+            'Asistí en la migración de AngularJS legacy a arquitectura Angular moderna',
+            'Integré APIs REST para visualización de datos financieros en tiempo real',
+          ],
+        },
+      ],
+    },
+    portfolio: {
+      title: 'Portafolio',
+      subtitle: 'Proyectos y sistemas que he construido',
+      view_details: 'Ver detalles',
+      projects: [
+        {
+          title: 'Sistema de Soporte con IA',
+          description:
+            'Plataforma de automatización de soporte al cliente con IA usando LLMs, RAG y búsqueda semántica. Redujo el tiempo de resolución de tickets en un 40%.',
+          company: 'Kueski',
+          tags: ['Next.js', 'OpenAI', 'RAG', 'Vector DB', 'TypeScript'],
+          category: 'AI / FinTech',
+          color: 'from-violet-600 to-indigo-600',
+          icon: '🤖',
+        },
+        {
+          title: 'Dashboard Financiero en Tiempo Real',
+          description:
+            'Interfaces de datos de alta velocidad para toma de decisiones financieras con actualizaciones en tiempo real y análisis avanzado.',
+          company: 'Kueski',
+          tags: ['React Query', 'Zustand', 'WebSockets', 'Recharts'],
+          category: 'FinTech / UI',
+          color: 'from-emerald-600 to-teal-600',
+          icon: '📊',
+        },
+        {
+          title: 'Plataforma de Herramientas Internas',
+          description:
+            'Servicios backend y APIs escalables para plataforma de herramientas internas usada por miles de usuarios con latencia mejorada en 25%.',
+          company: 'Retool',
+          tags: ['Node.js', 'GraphQL', 'REST API', 'Nx Monorepo'],
+          category: 'Backend / API',
+          color: 'from-amber-600 to-orange-600',
+          icon: '⚙️',
+        },
+        {
+          title: 'Plataforma HR Escalable',
+          description:
+            'Suite fullstack de gestión de RRHH con flujos de trabajo de empleados, onboarding y analítica, mejorando la adopción en 25%.',
+          company: 'Factorial',
+          tags: ['React', 'Angular', 'NgRx', 'Node.js', 'PostgreSQL'],
+          category: 'HR / SaaS',
+          color: 'from-rose-600 to-pink-600',
+          icon: '👥',
+        },
+        {
+          title: 'Módulos de Contabilidad',
+          description:
+            'Componentes UI responsivos y visualización de datos financieros en tiempo real para módulos de contabilidad y gestión empresarial.',
+          company: 'Holded',
+          tags: ['AngularJS', 'Angular', 'SCSS', 'REST API'],
+          category: 'FinTech / UI',
+          color: 'from-cyan-600 to-sky-600',
+          icon: '💼',
+        },
+        {
+          title: 'Copiloto UI Inteligente',
+          description:
+            'Asistente de IA integrado en dashboards internos para analistas, reduciendo la carga de trabajo manual en ~30% con flujos de trabajo guiados.',
+          company: 'Kueski',
+          tags: ['Next.js', 'LLM', 'TypeScript', 'React', 'Tailwind'],
+          category: 'AI / Tooling',
+          color: 'from-fuchsia-600 to-purple-600',
+          icon: '✨',
+        },
+      ],
+    },
+    contact: {
+      title: 'Contacto',
+      subtitle: '¿Tienes un proyecto en mente? Hablemos.',
+      form: {
+        name: 'Nombre completo',
+        email: 'Correo electrónico',
+        subject: 'Asunto',
+        message: 'Mensaje',
+        send: 'Enviar Mensaje',
+        sending: 'Enviando...',
+        success: '¡Mensaje enviado exitosamente!',
+        error: 'Ocurrió un error. Por favor intenta de nuevo.',
+        name_placeholder: 'Tu nombre',
+        email_placeholder: 'tu@email.com',
+        subject_placeholder: '¿En qué puedo ayudarte?',
+        message_placeholder: 'Cuéntame sobre tu proyecto...',
+      },
+      info: {
+        location: 'Ubicación',
+        location_value: 'Lima, Perú',
+        email: 'Correo',
+        phone: 'Teléfono',
+        availability: 'Disponibilidad',
+        availability_value: 'Abierto a oportunidades remotas',
+      },
+      cv_title: 'Currículum',
+      cv_description: 'Descarga o consulta mi CV completo',
+      cv_button: 'Ver Currículum Completo',
+    },
+    footer: {
+      made_with: 'Hecho con',
+      rights: 'Todos los derechos reservados.',
+    },
+  },
+  en: {
+    nav: {
+      about: 'About',
+      skills: 'Skills',
+      experience: 'Experience',
+      portfolio: 'Portfolio',
+      contact: 'Contact',
+    },
+    hero: {
+      greeting: "Hi, I'm",
+      title: 'Lead Software Engineer',
+      subtitle:
+        'Frontend & fullstack specialist with ~9 years of experience building scalable web applications and high-performance user experiences for global remote teams.',
+      cta_contact: 'Contact Me',
+      cta_portfolio: 'View Portfolio',
+      cta_cv: 'View Resume',
+      available: 'Available for projects',
+    },
+    about: {
+      title: 'About Me',
+      subtitle: 'Building digital products with purpose',
+      description:
+        'I am a Software Engineer with ~9 years of experience building scalable, product-focused web applications across global remote teams. Specialized in modern frontend and fullstack development using React, Next.js, and Angular ecosystems.',
+      description2:
+        'Multilingual communicator with a focus on clean architecture, performance optimization, and maintainable systems. Passionate about developer experience and technical excellence.',
+      location: 'Lima, Peru',
+      email: 'enricoperania@gmail.com',
+      phone: '+1 928-268-8561',
+      languages_title: 'Languages',
+      languages: [
+        { name: 'Spanish', level: 'Native', flag: '🇵🇪' },
+        { name: 'English', level: 'Fluent', flag: '🇺🇸' },
+        { name: 'Japanese', level: 'Fluent', flag: '🇯🇵' },
+      ],
+      education_title: 'Education',
+      education: {
+        degree: 'Bachelor of Science in Computer Science',
+        school: 'National University of Engineering (Peru)',
+        year: '2016',
+      },
+    },
+    skills: {
+      title: 'Technical Skills',
+      subtitle: 'Tools and technologies I work with',
+      categories: {
+        frontend: 'Frontend',
+        backend: 'Backend',
+        cloud: 'Cloud / DevOps',
+        tools: 'Tools / Testing',
+      },
+    },
+    experience: {
+      title: 'Work Experience',
+      subtitle: 'My professional journey',
+      present: 'Present',
+      remote: 'Remote from Peru',
+      jobs: [
+        {
+          company: 'Kueski',
+          location: 'Mexico',
+          role: 'Lead Software Engineer (Frontend / AI Systems)',
+          period: 'Aug 2024 – Present',
+          bullets: [
+            'Led development of AI-powered financial product features, integrating LLM workflows using OpenAI APIs and RAG pipelines, improving customer support automation by 40%',
+            'Designed and implemented intelligent UI copilots for internal dashboards, reducing manual analyst workload by ~30%',
+            'Built scalable frontend architecture using Next.js (App Router), improving page load performance by 35%',
+            'Developed real-time data interfaces using React Query and Zustand for faster financial decision-making workflows',
+            'Mentored engineers and established frontend standards, improving team delivery velocity and code consistency',
+          ],
+        },
+        {
+          company: 'Retool',
+          location: 'United States',
+          role: 'Senior Backend Engineer',
+          period: 'Apr 2021 – Jul 2024',
+          bullets: [
+            'Architected and optimized backend services supporting internal tooling platforms, improving latency by 25%',
+            'Designed scalable REST and GraphQL APIs for dynamic dashboard systems used by thousands of internal users',
+            'Led migration to modular monorepo architecture (Nx), improving build performance and productivity by 30%',
+            'Implemented robust testing strategies (Mocha, Cypress), reducing production bugs by 20%',
+            'Improved CI/CD pipelines, reducing deployment times and enabling faster iteration cycles',
+          ],
+        },
+        {
+          company: 'Factorial',
+          location: 'Spain',
+          role: 'Mid-Level Full Stack Engineer',
+          period: 'Jan 2019 – Mar 2021',
+          bullets: [
+            'Developed fullstack HR platform features using React, Angular, and Node.js, improving user engagement by 25%',
+            'Built scalable frontend components with Angular and NgRx, enhancing application responsiveness',
+            'Designed RESTful APIs and backend services to support employee management workflows',
+            'Introduced React Query and modern state management practices, improving data-fetching efficiency',
+          ],
+        },
+        {
+          company: 'Holded',
+          location: 'Spain',
+          role: 'Junior Frontend Engineer',
+          period: 'Jul 2016 – Dec 2018',
+          bullets: [
+            'Built responsive UI components using AngularJS and early Angular versions for accounting modules',
+            'Implemented reusable UI patterns and styling systems with SCSS, reducing UI inconsistencies',
+            'Assisted in migration from legacy AngularJS to modern Angular architecture',
+            'Integrated REST APIs to support real-time financial data visualization',
+          ],
+        },
+      ],
+    },
+    portfolio: {
+      title: 'Portfolio',
+      subtitle: 'Projects and systems I have built',
+      view_details: 'View details',
+      projects: [
+        {
+          title: 'AI Customer Support System',
+          description:
+            'AI-powered customer support automation platform using LLMs, RAG pipelines, and semantic search. Reduced ticket resolution time by 40%.',
+          company: 'Kueski',
+          tags: ['Next.js', 'OpenAI', 'RAG', 'Vector DB', 'TypeScript'],
+          category: 'AI / FinTech',
+          color: 'from-violet-600 to-indigo-600',
+          icon: '🤖',
+        },
+        {
+          title: 'Real-Time Financial Dashboard',
+          description:
+            'High-speed data interfaces for financial decision-making with real-time updates, analytics, and intelligent insights.',
+          company: 'Kueski',
+          tags: ['React Query', 'Zustand', 'WebSockets', 'Recharts'],
+          category: 'FinTech / UI',
+          color: 'from-emerald-600 to-teal-600',
+          icon: '📊',
+        },
+        {
+          title: 'Internal Tooling Platform',
+          description:
+            'Scalable backend services and APIs for internal tooling platform used by thousands of users with 25% improved latency.',
+          company: 'Retool',
+          tags: ['Node.js', 'GraphQL', 'REST API', 'Nx Monorepo'],
+          category: 'Backend / API',
+          color: 'from-amber-600 to-orange-600',
+          icon: '⚙️',
+        },
+        {
+          title: 'Scalable HR Platform',
+          description:
+            'Full-stack HR management suite with employee workflows, onboarding, and analytics, improving feature adoption by 25%.',
+          company: 'Factorial',
+          tags: ['React', 'Angular', 'NgRx', 'Node.js', 'PostgreSQL'],
+          category: 'HR / SaaS',
+          color: 'from-rose-600 to-pink-600',
+          icon: '👥',
+        },
+        {
+          title: 'Accounting Modules',
+          description:
+            'Responsive UI components and real-time financial data visualization for accounting and business management modules.',
+          company: 'Holded',
+          tags: ['AngularJS', 'Angular', 'SCSS', 'REST API'],
+          category: 'FinTech / UI',
+          color: 'from-cyan-600 to-sky-600',
+          icon: '💼',
+        },
+        {
+          title: 'Intelligent UI Copilot',
+          description:
+            'AI assistant embedded in internal analyst dashboards, reducing manual workload by ~30% with guided AI-powered workflows.',
+          company: 'Kueski',
+          tags: ['Next.js', 'LLM', 'TypeScript', 'React', 'Tailwind'],
+          category: 'AI / Tooling',
+          color: 'from-fuchsia-600 to-purple-600',
+          icon: '✨',
+        },
+      ],
+    },
+    contact: {
+      title: 'Contact',
+      subtitle: 'Have a project in mind? Let\'s talk.',
+      form: {
+        name: 'Full name',
+        email: 'Email address',
+        subject: 'Subject',
+        message: 'Message',
+        send: 'Send Message',
+        sending: 'Sending...',
+        success: 'Message sent successfully!',
+        error: 'An error occurred. Please try again.',
+        name_placeholder: 'Your name',
+        email_placeholder: 'you@email.com',
+        subject_placeholder: 'How can I help you?',
+        message_placeholder: 'Tell me about your project...',
+      },
+      info: {
+        location: 'Location',
+        location_value: 'Lima, Peru',
+        email: 'Email',
+        phone: 'Phone',
+        availability: 'Availability',
+        availability_value: 'Open to remote opportunities',
+      },
+      cv_title: 'Resume',
+      cv_description: 'Download or view my full CV',
+      cv_button: 'View Full Resume',
+    },
+    footer: {
+      made_with: 'Made with',
+      rights: 'All rights reserved.',
+    },
+  },
+};
+
+export type Translations = typeof translations.es;
