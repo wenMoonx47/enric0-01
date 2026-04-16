@@ -205,6 +205,7 @@ export const translations = {
       cv_title: 'Currículum',
       cv_description: 'Descarga o consulta mi CV completo',
       cv_button: 'Ver Currículum Completo',
+      cv_url: 'https://docs.google.com/document/d/1VsMBprLNqgQb5Wory8LuAK8P-XkyNLCkh9RE9S44Uto/edit?usp=sharing',
     },
     footer: {
       made_with: 'Hecho con',
@@ -415,6 +416,7 @@ export const translations = {
       cv_title: 'Resume',
       cv_description: 'Download or view my full CV',
       cv_button: 'View Full Resume',
+      cv_url: 'https://docs.google.com/document/d/1Hjl2CDHKE0ld5PdAPssHh7g8s5LXIpL55ZqDM8vNiUo/edit?usp=sharing',
     },
     footer: {
       made_with: 'Made with',

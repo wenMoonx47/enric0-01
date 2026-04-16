@@ -87,7 +87,7 @@ export default function Contact() {
                 </div>
               </div>
               <a
-                href="https://docs.google.com/document/d/1VsMBprLNqgQb5Wory8LuAK8P-XkyNLCkh9RE9S44Uto/edit?tab=t.0"
+                href={t.contact.cv_url}
                 target="_blank" rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 w-full px-4 py-3 rounded-xl bg-[#111] text-white text-sm font-semibold hover:bg-[#2a2a2a] transition-colors duration-200"
               >

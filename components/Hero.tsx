@@ -107,7 +107,7 @@ export default function Hero() {
               {t.hero.cta_portfolio}
             </button>
             <a
-              href="https://docs.google.com/document/d/1VsMBprLNqgQb5Wory8LuAK8P-XkyNLCkh9RE9S44Uto/edit?tab=t.0"
+              href={t.contact.cv_url}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-7 py-3.5 rounded-xl border-2 border-[#D0CEC7] text-[#555] text-base font-semibold hover:border-[#111] hover:text-[#111] transition-all duration-200"
