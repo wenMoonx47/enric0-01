@@ -128,7 +128,7 @@ export default function About() {
                 Core Stack
               </p>
               <div className="flex flex-wrap gap-2">
-                {['React', 'Next.js', 'TypeScript', 'Node.js', 'Angular', 'GraphQL', 'OpenAI'].map((tech) => (
+                {['React', 'TypeScript', 'Java', 'Go', 'Python', 'Node.js', 'Kubernetes'].map((tech) => (
                   <span
                     key={tech}
                     className="px-4 py-2 rounded-full text-sm font-semibold border-2 border-[#E3E0D8] bg-white text-[#333] hover:border-[#111] hover:text-[#111] transition-colors duration-150"
