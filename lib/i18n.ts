@@ -31,7 +31,7 @@ export const translations = {
       phone: '+1 928-268-8561',
       languages_title: 'Idiomas',
       languages: [
-        { name: 'Español', level: 'Nativo', flag: '🇵🇪' },
+        { name: 'Español', level: 'Fluido', flag: '🇵🇪' },
         { name: 'Inglés', level: 'Fluido', flag: '🇺🇸' },
         { name: 'Japonés', level: 'Fluido', flag: '🇯🇵' },
       ],
@@ -244,7 +244,7 @@ export const translations = {
       phone: '+1 928-268-8561',
       languages_title: 'Languages',
       languages: [
-        { name: 'Spanish', level: 'Native', flag: '🇵🇪' },
+        { name: 'Spanish', level: 'Fluent', flag: '🇵🇪' },
         { name: 'English', level: 'Fluent', flag: '🇺🇸' },
         { name: 'Japanese', level: 'Fluent', flag: '🇯🇵' },
       ],
