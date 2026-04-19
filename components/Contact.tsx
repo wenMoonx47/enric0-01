@@ -77,25 +77,6 @@ export default function Contact() {
               </div>
             ))}
 
-            {/* CV */}
-            <div className="p-6 rounded-2xl bg-[#F7F5F0] border-2 border-dashed border-[#D0CEC7]">
-              <div className="flex items-center gap-3 mb-4">
-                <FileText size={20} className="text-[#555]" />
-                <div>
-                  <p className="text-[#111] font-bold text-base">{t.contact.cv_title}</p>
-                  <p className="text-[#AAA] text-sm">{t.contact.cv_description}</p>
-                </div>
-              </div>
-              <a
-                href={t.contact.cv_url}
-                target="_blank" rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2 w-full px-4 py-3 rounded-xl bg-[#111] text-white text-sm font-semibold hover:bg-[#2a2a2a] transition-colors duration-200"
-              >
-                <FileText size={14} />
-                {t.contact.cv_button}
-              </a>
-            </div>
-
             {/* Socials */}
             <div>
               <p className="text-[11px] font-semibold tracking-[0.2em] uppercase text-[#AAA] mb-3">
