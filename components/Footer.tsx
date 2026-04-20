@@ -19,7 +19,7 @@ export default function Footer() {
         <div className="flex items-center gap-5 text-[#AAA] text-sm">
           <a href="https://www.linkedin.com/in/enrico-perania-3689ba403/" target="_blank" rel="noopener noreferrer" className="hover:text-[#111] transition-colors font-medium">LinkedIn</a>
           <a href="https://twitter.com/ThepaulCreative" target="_blank" rel="noopener noreferrer" className="hover:text-[#111] transition-colors font-medium">X / Twitter</a>
-          <a href="mailto:enricoperania@gmail.com" className="hover:text-[#111] transition-colors font-medium">Email</a>
+          <a href="mailto:teraagus12@gmail.com" className="hover:text-[#111] transition-colors font-medium">Email</a>
         </div>
       </div>
     </footer>

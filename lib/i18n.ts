@@ -27,7 +27,7 @@ export const translations = {
       description2:
         'Especializado en sistemas distribuidos, arquitecturas event-driven, integración de IA/LLM y pipelines de observabilidad. Profesional multilingüe con experiencia en equipos remotos multiculturales en LATAM, EE.UU. y Europa.',
       location: 'Lima, Perú',
-      email: 'enricoperania@gmail.com',
+      email: 'teraagus12@gmail.com',
       phone: '+1 928-268-8561',
       languages_title: 'Idiomas',
       languages: [
@@ -240,7 +240,7 @@ export const translations = {
       description2:
         'Specialized in distributed systems, event-driven architectures, AI/LLM integration, and observability pipelines. Multilingual professional experienced in remote, cross-cultural teams across LATAM, US, and Europe.',
       location: 'Lima, Peru',
-      email: 'enricoperania@gmail.com',
+      email: 'teraagus12@gmail.com',
       phone: '+1 928-268-8561',
       languages_title: 'Languages',
       languages: [

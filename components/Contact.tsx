@@ -18,7 +18,7 @@ export default function Contact() {
     setStatus('sending');
     const subject = encodeURIComponent(data.subject);
     const body    = encodeURIComponent(`Name: ${data.name}\nEmail: ${data.email}\n\n${data.message}`);
-    window.location.href = `mailto:enricoperania@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:teraagus12@gmail.com?subject=${subject}&body=${body}`;
     setTimeout(() => { setStatus('success'); reset(); setTimeout(() => setStatus('idle'), 4000); }, 800);
   };
 
@@ -60,7 +60,7 @@ export default function Contact() {
           >
             {[
               { icon: <MapPin size={17} />, label: t.contact.info.location, value: 'Av. Universitaria 742, Urb. Ingeniería, San Martín de Porres, Lima, Perú' },
-              { icon: <Mail size={17} />, label: t.contact.info.email, value: 'enricoperania@gmail.com' },
+              { icon: <Mail size={17} />, label: t.contact.info.email, value: 'teraagus12@gmail.com' },
               { icon: <Phone size={17} />, label: t.contact.info.phone, value: '+1 928-268-8561' },
               { icon: <Clock size={17} />, label: t.contact.info.availability, value: t.contact.info.availability_value },
             ].map((item) => (
