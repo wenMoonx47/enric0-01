@@ -28,7 +28,7 @@ export const translations = {
         'Especializado en sistemas distribuidos, arquitecturas event-driven, integración de IA/LLM y pipelines de observabilidad. Profesional multilingüe con experiencia en equipos remotos multiculturales en LATAM, EE.UU. y Europa.',
       location: 'Lima, Perú',
       email: 'teraagus12@gmail.com',
-      phone: '+1 928-268-8561',
+      phone: '+63 966 239 6804',
       languages_title: 'Idiomas',
       languages: [
         { name: 'Español', level: 'Fluido', flag: '🇵🇪' },
@@ -241,7 +241,7 @@ export const translations = {
         'Specialized in distributed systems, event-driven architectures, AI/LLM integration, and observability pipelines. Multilingual professional experienced in remote, cross-cultural teams across LATAM, US, and Europe.',
       location: 'Lima, Peru',
       email: 'teraagus12@gmail.com',
-      phone: '+1 928-268-8561',
+      phone: '+63 966 239 6804',
       languages_title: 'Languages',
       languages: [
         { name: 'Spanish', level: 'Fluent', flag: '🇵🇪' },

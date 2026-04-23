@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;-webkit-print-color-adjust:exact}
+.cover{
+  width:1200px;height:630px;position:relative;overflow:hidden;
+  background:linear-gradient(135deg,#7C3AED 0%,#4F46E5 50%,#0f172a 100%);
+}
+.noise{position:absolute;inset:0;opacity:0.04;background:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.grid{position:absolute;inset:0;opacity:0.06;background-image:linear-gradient(rgba(255,255,255,0.1) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.1) 1px,transparent 1px);background-size:40px 40px}
+.glow1{position:absolute;top:-100px;right:-100px;width:500px;height:500px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,0.12) 0%,transparent 70%)}
+.glow2{position:absolute;bottom:-80px;left:100px;width:400px;height:400px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,0.08) 0%,transparent 70%)}
+
+.content{position:relative;z-index:2;display:flex;height:100%;padding:48px 56px}
+.left{flex:1;display:flex;flex-direction:column;justify-content:center;gap:16px}
+.right{width:520px;display:flex;align-items:center;justify-content:center}
+
+.logo{font-size:48px;margin-bottom:4px}
+.company{font-size:42px;font-weight:900;color:white;letter-spacing:-1px;line-height:1.1}
+.tagline{font-size:18px;font-weight:500;color:rgba(255,255,255,0.7);margin-top:4px}
+.role-box{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,0.12);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,0.15);border-radius:12px;padding:10px 18px;margin-top:8px;width:fit-content}
+.role{font-size:14px;font-weight:600;color:white}
+.period{font-size:13px;color:rgba(255,255,255,0.6);font-weight:500}
+.dot{width:4px;height:4px;border-radius:50%;background:rgba(255,255,255,0.4)}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.tag{padding:6px 14px;border-radius:8px;font-size:12px;font-weight:600;color:white;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.15);backdrop-filter:blur(4px)}
+
+.screenshot{
+  width:480px;height:320px;border-radius:16px;overflow:hidden;
+  box-shadow:0 25px 60px rgba(0,0,0,0.4),0 0 0 1px rgba(255,255,255,0.1);
+  transform:perspective(800px) rotateY(-8deg) rotateX(3deg);
+  border:2px solid rgba(255,255,255,0.12);
+}
+.screenshot img{width:100%;height:100%;object-fit:cover;object-position:top left}
+
+.badge{position:absolute;top:28px;right:40px;z-index:3;display:flex;align-items:center;gap:6px;background:rgba(255,255,255,0.1);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,0.15);border-radius:20px;padding:8px 16px}
+.badge-dot{width:8px;height:8px;border-radius:50%;background:#4ade80}
+.badge-text{font-size:11px;font-weight:600;color:rgba(255,255,255,0.8);text-transform:uppercase;letter-spacing:1px}
+</style></head><body>
+<div class="cover">
+  <div class="noise"></div>
+  <div class="grid"></div>
+  <div class="glow1"></div>
+  <div class="glow2"></div>
+  <div class="badge"><div class="badge-dot"></div><span class="badge-text">Enrico Perania</span></div>
+  <div class="content">
+    <div class="left">
+      <div class="logo">🏦</div>
+      <div class="company">Kueski</div>
+      <div class="tagline">AI-Powered FinTech Platform</div>
+      <div class="role-box">
+        <span class="role">Lead Software Engineer</span>
+        <div class="dot"></div>
+        <span class="period">2024 – Present</span>
+      </div>
+      <div class="tags">
+        <span class="tag">Spring Boot</span><span class="tag">Kafka</span><span class="tag">OpenAI</span><span class="tag">RAG</span><span class="tag">Kubernetes</span>
+      </div>
+    </div>
+    <div class="right">
+      <div class="screenshot">
+        <img src="file:///home/fang/Documents/Enrico Perania/portfolio/public/images/new/kueski-app-home.webp" />
+      </div>
+    </div>
+  </div>
+</div>
+</body></html>

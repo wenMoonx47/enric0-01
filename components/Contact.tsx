@@ -61,7 +61,7 @@ export default function Contact() {
             {[
               { icon: <MapPin size={17} />, label: t.contact.info.location, value: 'Av. Universitaria 742, Urb. Ingeniería, San Martín de Porres, Lima, Perú' },
               { icon: <Mail size={17} />, label: t.contact.info.email, value: 'teraagus12@gmail.com' },
-              { icon: <Phone size={17} />, label: t.contact.info.phone, value: '+1 928-268-8561' },
+              { icon: <Phone size={17} />, label: t.contact.info.phone, value: '+63 966 239 6804' },
               { icon: <Clock size={17} />, label: t.contact.info.availability, value: t.contact.info.availability_value },
             ].map((item) => (
               <div key={item.label} className="flex items-start gap-4 p-5 rounded-2xl bg-[#F7F5F0] border border-[#E3E0D8]">
